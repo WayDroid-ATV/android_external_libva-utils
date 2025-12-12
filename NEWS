@@ -1,5 +1,13 @@
-libva-utils NEWS -- summary of changes.  2024-06-20
-Copyright (C) 2009-2024 Intel Corporation
+libva-utils NEWS -- summary of changes.  2025-12-12
+Copyright (C) 2009-2025 Intel Corporation
+
+Version 2.23.0 - 12.Dec.2025
+* fix:Fixed build with -std=c++20
+* fix:usr ptr surface type not set ext buffer flag
+* fix:Fix coveirty overflowed issues
+* fix: remove useless code and fix code copy typo
+* android: Support Android build
+* sample: [HEVCe] update header logic
 
 Version 2.22.0 - 20.Jun.2024
 * ci:  correct the permission of workflows
