@@ -111,10 +111,10 @@ static VAIQMatrixBufferMPEG2 iq_matrix = {
         34, 34, 37, 38, 37, 35, 35, 34,
         35, 38, 38, 40, 40, 40, 48, 48,
         46, 46, 56, 56, 58, 69, 69, 83
-     },
+    },
     .non_intra_quantiser_matrix = {16},
     .chroma_intra_quantiser_matrix = {0},
-    .chroma_non_intra_quantiser_matrix ={0}
+    .chroma_non_intra_quantiser_matrix = {0}
 };
 
 #if 1
